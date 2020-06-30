@@ -1,0 +1,12 @@
+.Input{
+    width:50vw;
+    min-width:320px;
+}
+.btn-login{
+    width:28vw;
+    min-width:320px;
+}
+.btn-register{
+    width:20vw;
+    min-width:320px;
+}

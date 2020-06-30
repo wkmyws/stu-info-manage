@@ -1,0 +1,20 @@
+@url=http://localhost:3028
+
+GET {{url}}/home HTTP/1.1
+Content-Type: application/json
+
+{
+    "usr":"admin",
+    "pwd":"123",
+    "key":"123"
+}
+#########
+
+POST {{url}}/test HTTP/1.1
+Content-Type: application/json
+
+{
+    "usr":"admin",
+    "pwd":"123",
+    "key":"123"
+}
